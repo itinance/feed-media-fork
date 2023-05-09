@@ -1,9 +1,9 @@
 {
-  "name": "feed",
+  "name": "feed-media",
   "version": "4.2.2",
-  "description": "Feed is a RSS, Atom and JSON feed generator for Node.js, making content syndication simple and intuitive!",
-  "homepage": "https://github.com/jpmonette/feed",
-  "author": "Jean-Philippe Monette <contact@jpmonette.net>",
+  "description": "Feed Media is a fork of the Feed npm library (a RSS, Atom and JSON feed generator for Node.js) with added support for media elements such as used by podcasts.",
+  "homepage": "https://github.com/damieng/jpmonette-feed",
+  "author": "Damien Guard <damieng@gmail.com>",
   "license": "MIT",
   "main": "lib/feed.js",
   "types": "lib/feed.d.ts",
@@ -46,11 +46,11 @@
     "node": ">=0.4.0"
   },
   "bugs": {
-    "url": "https://github.com/jpmonette/feed/issues"
+    "url": "https://github.com/damieng/jpmonette-feed/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jpmonette/feed.git"
+    "url": "https://github.com/damieng/jpmonette-feed.git"
   },
   "packageManager": "yarn@3.2.1"
 }
