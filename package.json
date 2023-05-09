@@ -1,6 +1,6 @@
 {
   "name": "feed-media",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Feed Media is a fork of the Feed npm library (a RSS, Atom and JSON feed generator for Node.js) with added support for media elements such as used by podcasts.",
   "homepage": "https://github.com/damieng/jpmonette-feed",
   "author": "Damien Guard <damieng@gmail.com>",
@@ -8,7 +8,7 @@
   "main": "lib/feed.js",
   "types": "lib/feed.d.ts",
   "scripts": {
-    "build": "rm -rf lib/ && mkdir lib && tsc",
+    "build": "tsc",
     "prepublish": "yarn build",
     "test": "jest --silent",
     "test-travis": "jest --coverage"
